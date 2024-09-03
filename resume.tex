@@ -1,0 +1,281 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generated pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape SUSHMITA SHUKLA} \\ \vspace{1pt}
+    \vspace{2pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91-8707540636 ~ \href{mailto:sushmitas0305@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{sushmitas0305@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/sushmitas0305/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/sushmitas0305}}  ~
+    \href{https://github.com/Sushmitas31}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/Sushmitas31}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Axis Institute of Technology and Management}{August 2017 -- August 2021}
+      {Bachelor of Technology in Electrical Engineering(CGPA of 7.9/10.0)}{Kanpur, India}
+  \resumeSubHeadingListEnd
+
+
+
+%-----------EXPERIENCE-----------
+\section{Experience  }
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Global Survey Solutions}{January 2023 -- Present}
+      {Programmer}{Noida, Uttar Pradesh}
+      \resumeItemListStart
+        \resumeItem{Designed survey frontend with HTML, CSS, JS, and XML tailored to client specifications.}
+        \resumeItem{Developed a Python-driven backend for survey data processing.}
+        \resumeItem{Conducted data visualization on collected survey data.}
+        \resumeItem{Delivered actionable insights to clients based on survey results.}
+        \resumeItem{Proactively identified and resolved data discrepancies in survey data.}
+      \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Realtime Flight Status Notification} $|$ \emph{Flask, Kafka, Firebase Cloud Messaging}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a web app using \textbf{Flask} as the backend to provide real-time flight status updates and notifications to 
+passengers.}
+            \resumeItem{Notifications are sent to the browser using \textbf{Firebase Cloud Messaging}.}
+            \resumeItem{Utilized \textbf{Kafka} to generate and consume real-time data.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      
+      \resumeProjectHeading
+          {\textbf{Movie Review App} $|$ \emph{Node.js, React, Express.js}}{}
+          \resumeItemListStart
+            \resumeItem{Created a movie review app using \textbf{Node.js} as backend and \textbf{React} as frontend.}
+            \resumeItem{CRUD operation can be easily performed on the data stored using API responses.}
+            \resumeItem{Hosted on \textbf{Netlify}}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Classroom API} $|$ \emph{Node JS, Express.js}}{}
+          \resumeItemListStart
+            \resumeItem{Implemented authentication in \textbf{Node.js} using \textbf{JWT}.}
+            \resumeItem{Capable of handling two types of users teachers and students.}
+            \resumeItem{Teachers can upload and edit a file whereas students can only view the file in a specific classroom.}
+            \resumeItem{Hosted on \textbf{Netlify} and \href{https://documenter.getpostman.com/view/21169033/2sA3BoarPH}{\textit{documentation}} created using \textbf{Postman}.}
+          \resumeItemListEnd 
+          
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+% %------RELEVANT COURSEWORK-------
+% \section{Relevant Coursework}
+%     %\resumeSubHeadingListStart
+%         \begin{multicols}{4}
+%             \begin{itemize}[itemsep=-5pt, parsep=3pt]
+%                 \item\small Data Structures
+%                 \item Software Methodology
+%                 \item Algorithms Analysis
+%                 \item Database Management
+%                 \item Artificial Intelligence
+%                 \item Internet Technology
+%                 \item Systems Programming
+%                 \item Computer Architecture
+%             \end{itemize}
+%         \end{multicols}
+%         \vspace*{2.0\multicolsep}
+%     %\resumeSubHeadingListEnd
+
+%------RELEVANT COURSEWORK-------
+\section{Training and Internship}
+    %\resumeSubHeadingListStart
+        \vspace{-5pt}
+    \resumeSubHeadingListStart
+      
+      \resumeProjectHeading
+          {\textbf{GeeksforGeeks} $|$ \emph{Duration: 2 months (Onsite)}}{}
+          \resumeItemListStart
+            \resumeItem{Learned to build dynamic, scalable web applications using MongoDB, Express.js, React, and Node.js.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+
+
+      \resumeProjectHeading
+          {\textbf{NASSCOM: Foundation of Artificial Intelligence(AI)Program} $|$ \emph{Duration: 6 months (Online)}}{}
+          \resumeItemListStart
+            \resumeItem{Completed a certified course dedicated to the foundational principles and concepts of Artificial Intelligence (AI).}
+            \resumeItem{Acquired comprehensive knowledge and understanding of AI technology through extensive online modules and interactive sessions.}
+          \resumeItemListEnd 
+        \vspace{-13pt}
+        
+ 
+      \resumeProjectHeading
+          {\textbf{Indian Air Force 13 BRD} $|$ \emph{Duration: 4 week (Onsite)}}{}
+          \resumeItemListStart
+            \resumeItem{Completed a certified industrial training focused on the major repair and overhaul maintenance of electronic equipment.}
+            \resumeItem{Gained hands-on experience and in-depth exposure to the intricacies of advanced electronic equipment maintenance and troubleshooting.}
+          \resumeItemListEnd
+     
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: JavaScript, Python, Java, C, HTML/CSS, SQL} \\
+     \textbf{Developer Tools}{: VS Code, Postman, GitHub, Confluence} \\
+    \textbf{Databases}{: MongoDB, PostgreSQL } \\
+     \textbf{Technologies/Frameworks}{: NodeJS, Express.js, React } \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+
+
+%-----------INVOLVEMENT---------------
+\section{Technical Achivements}
+    \resumeSubHeadingListStart
+        % \resumeSubheading{Fraternity}{Spring 2020 -- Present}{President}{University Name} 
+            \resumeItemListStart
+                \resumeItem{Earned a Badge on \textbf{Software Defined Storage Concepts} and  \textbf{Network Virtualization Concepts} by \textbf{VMware}.}
+                \resumeItem{Completed certified course in Responsive Web Designing by freeCodeCamp.}
+                \resumeItem{Attended \textbf{Artificial Intelligence with Machine Learning Workshop} workshop conducted by \textbf{WAC IIT BHU}}
+                \resumeItem{Completed online certified course in \textbf{Introduction to Artificial Intelligence} by \textbf{IBM Coursera}.}
+                
+                
+            \resumeItemListEnd
+        
+    \resumeSubHeadingListEnd
+
+
+\end{document}
